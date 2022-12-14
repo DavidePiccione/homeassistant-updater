@@ -1,5 +1,5 @@
 # Homeassistant Updater
-A shell utility script to easily upgrade your Homeassistant installation on Python Venv!
+A shell utility script to easily update your Homeassistant installation on Python Venv!
 
 # How to use it:
 
