@@ -29,7 +29,7 @@ while getopts ":hp:" option; do
          Help
          exit;;
       p) # Custom Hass path
-         hassPath=$OPTARG;;
+         hassPath=${OPTARG%/};;
      \?) # Invalid option
          echo "Error: Invalid option"
          exit;;
