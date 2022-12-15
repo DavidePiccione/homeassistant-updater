@@ -50,7 +50,7 @@ EOF
 
 while true; do
 
-read -p "Have you made a backup of your existing configuration? (y/n) " yn
+read -rp "Have you made a backup of your existing configuration? (y/n) " yn
 
 case $yn in
         [yY] )  break;;
@@ -63,7 +63,7 @@ done
 
 while true; do
 
-read -p "Do you want to update homeassistant? (y/n) " yn
+read -rp "Do you want to update homeassistant? (y/n) " yn
 
 case $yn in
         [yY] ) echo Updating...;
