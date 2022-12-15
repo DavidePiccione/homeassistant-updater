@@ -1,4 +1,4 @@
-# Homeassistant Updater
+# Homeassistant Updater [![CodeFactor](https://www.codefactor.io/repository/github/davidesky/homeassistant-updater/badge)](https://www.codefactor.io/repository/github/davidesky/homeassistant-updater)
 A shell utility script to easily update your Homeassistant installation on Python Venv!
 
 # How to use it:
